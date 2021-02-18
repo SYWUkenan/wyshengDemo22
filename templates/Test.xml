@@ -1,0 +1,11 @@
+<templateSet group="Test">
+  <template name="aa" value="/**&#10;* @Description: $description$&#10;* @Param: $params$&#10;* @return: $returns$&#10;* @Author: yswu&#10;* @Date: $date$&#10;*/&#10;" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="功能描述" alwaysStopAt="true" />
+    <variable name="params" expression="methodParameters()" defaultValue="" alwaysStopAt="true" />
+    <variable name="returns" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <variable name="date" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
