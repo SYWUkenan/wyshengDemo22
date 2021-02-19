@@ -1,5 +1,5 @@
 <templateSet group="main">
-  <template name="main" value="public static void main(String[] args) {&#10;      $end$&#10;    }&#10;" toReformat="false" toShortenFQNames="true">
+  <template name="main" value="public static void main(String[] args) {&#10;      $end$&#10;    }&#10;" description="" toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="SpringApplication.run(class,args);" alwaysStopAt="true" />
   </template>
 </templateSet>
