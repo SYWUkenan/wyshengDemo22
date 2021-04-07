@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="klib" type="ARCHIVE" />
       <mapping ext="lua" type="PLAIN_TEXT" />
+      <mapping pattern="UserDaoMapper" type="XML" />
       <mapping pattern="Account" type="XML" />
     </extensionMap>
   </component>
